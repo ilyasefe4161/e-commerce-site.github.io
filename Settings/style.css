@@ -1,0 +1,280 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    /* üst tarafa sıfırlamak için yandaki ve alttaki kodlar */
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: #ffffff;
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #646464;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.blueAreaMenu a:link,
+.blueAreaMenu a:active,
+.blueAreaMenu a:visited {
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.blueAreaMenu a:hover {
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #000;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.mainMenu a:link,
+.mainMenu a:active,
+.mainMenu a:visited {
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #000;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.mainMenu a:hover {
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #000;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none;
+    font: 1.2em "Fira Sans", sans-serif;
+}
+
+.footer a:link,
+.footer a:active,
+.footer a:visited,
+.footer a:hover {
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #646464;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.resultpages a:link,
+.resultpages a:active,
+.resultpages a:visited,
+.resultpages a:hover {
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #646464;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.inputArea {
+    width: 95.7%;
+    height: 30px;
+    padding: 0 10px;
+}
+
+.selectArea {
+    width: 100%;
+    height: 35px;
+    padding: 0 10px;
+}
+
+.textArea {
+    width: 96.1%;
+    height: 100px;
+    padding: 10px 10px;
+}
+
+.greenButtonArea {
+    color: #fff;
+    height: 30px;
+    border: 1px solid #0f0;
+    background: #090;
+    padding: 5px 30px;
+}
+
+.greenButtonArea:hover {
+    color: #000;
+    height: 30px;
+    border: 1px solid #090;
+    background: #0f0;
+    padding: 5px 30px;
+    cursor: pointer;
+}
+
+.cargotrackingInput {
+    width: 75%;
+    height: 32px;
+    padding: 0 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ShipmentTrackingButton {
+    color: white;
+    height: 30px;
+    border: 1px solid #ccc;
+    background: #f90;
+    padding: 5px 50px;
+}
+
+.ShipmentTrackingButton:hover {
+    color: #000;
+    height: 30px;
+    border: 1px solid #000;
+    background: #ccc;
+    padding: 5px 50px;
+    cursor: pointer;
+}
+
+.SorununBaslikArea {
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #000;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px dashed #ccc;
+    cursor: pointer;
+}
+
+.SorununBaslikArea:hover {
+    background: #f1f1f1;
+    cursor: pointer;
+}
+
+.QuestionAnswerArea {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.signupform {
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetica, "sans-serif";
+    font-size: 14px;
+    color: #646464;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.searchingArea {
+    display: block;
+    width: 100%;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    outline: 0;
+    vertical-align: top;
+    /* background-color: #000; */
+
+
+}
+
+.searchingAreaButtonArea {
+    display: inline-block;
+    float: right;
+    width: 60px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    outline: 0;
+    text-align: left;
+}
+
+.searchingAreaButton {
+    display: block;
+    width: 60px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #646464;
+    outline: 0;
+    background: url(../Pictures/magnifyingGlass.png);
+    background-repeat: no-repeat;
+    background-position: center left 19px;
+
+}
+
+.searchingAreaButton:hover {
+    cursor: pointer;
+}
+
+.searchingAreaInputArea {
+    display: inline-block;
+    float: right;
+    width: -webkit-calc(100%-60%);
+    width: -moz-calc(100%-60%);
+    width: -o-calc(100%-60%);
+    width: -ms-calc(100%-60%);
+    width: calc(100%-60%);
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    outline: 0;
+    text-align: left;
+}
+
+.searchingAreaInput {
+    display: block;
+    float: left;
+    width: -webkit-calc(100%-42%);
+    width: -moz-calc(100%-42%);
+    width: -o-calc(100%-42%);
+    width: -ms-calc(100%-42%);
+    width: calc(100%-42%);
+    height: 33px;
+    margin: 0;
+    padding: 0;
+    padding-left: 30px;
+    padding-right: 10px;
+    background: url(../Pictures/magnifyingGlass.png);
+    background-repeat: no-repeat;
+    background-position: center left 10px;
+    border: 1px solid #646464;
+    outline: 0;
+    text-align: left;
+
+}

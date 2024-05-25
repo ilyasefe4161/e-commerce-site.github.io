@@ -1,0 +1,1 @@
+hesabım üyelik bilgilerim
